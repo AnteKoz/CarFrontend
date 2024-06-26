@@ -21,8 +21,8 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Where am I
-      run: pwd
+    - name: Nav to Frontend folder
+      run: cd car-frontend
     
     - name: Install dependencies
       run: npm install
