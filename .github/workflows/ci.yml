@@ -22,7 +22,7 @@ jobs:
         node-version: '14'
 
     - name: Nav to Frontend folder
-      run: cd car-frontend
+      run: ls -al
     
     - name: Install dependencies
       run: npm install
